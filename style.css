@@ -1,7 +1,7 @@
 .page {
   font-family: 'Roboto', Helvetica, sans-serif;
 
-  padding: 0 60px;
+  padding: 0 40px;
   margin: 0;
 }
 
@@ -37,7 +37,7 @@
 
 .features-item {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 24px;
 
   color: #2c2c2b;
@@ -55,10 +55,6 @@
 }
 
 .item-image-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
   min-width: 70px;
   height: 100%;
 }
